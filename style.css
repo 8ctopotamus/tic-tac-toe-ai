@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #ffff80;
+}
+
+header {
+  text-align: center;
+  margin: 50px auto;
+}
+
+#title {
+  font-size: 50px;
+  font-family: cursive;
+  color: cornflowerblue;
+}
+
+#result {
+  font-size: 30px;
+  font-family: Verdana;
+  color: chocolate;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+canvas {
+  display: block;
+  float: left;
+  border: 3px solid dodgerblue;
+  background-color: lightyellow;
+  text-align: center;
+}
+
+canvas:hover {
+  background-color: lightblue;
+  cursor: pointer;
+}
+
+#game {
+  position: relative;
+  width: 650px;
+  height: 320px;
+  margin: 0 auto;
+}
+
+#tic,
+#rules {
+  position: relative;
+  margin: 0 auto;
+  width: 318px;
+  height: 318px;
+  display: inline-block;
+}
+
+#tic {
+  border: 3px solid dodgerblue;
+  float: left;
+}
+#rules {
+  float: right;
+  text-align: center;
+}
+
+p {
+  font-size: 26px;
+  margin: 15px;
+  color: brown;
+}
+
+h3 {
+  font-size: 35px;
+  color: brown;
+}
+
+button {
+  margin-top: 15px;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: limegreen;
+  color: white;
+  font-family: cursive;
+  border: 1px solid black;
+  cursor: pointer;
+  -webkit-box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.7);
+  -moz-box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.7);
+  -ms-box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.7);
+  box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.7);
+}
+
+button:hover {
+  background-color: green;
+}
