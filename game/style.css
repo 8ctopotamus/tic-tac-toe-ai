@@ -4,7 +4,7 @@
 }
 
 html {
-  background-color: #ffff80;
+  /* background-color: #ffff80; */
 }
 
 header {
@@ -14,8 +14,8 @@ header {
 
 #title {
   font-size: 50px;
-  font-family: cursive;
-  color: cornflowerblue;
+  font-family: sans-serif;
+  /* color: cornflowerblue; */
 }
 
 #result {
@@ -30,7 +30,7 @@ canvas {
   display: block;
   float: left;
   border: 3px solid dodgerblue;
-  background-color: lightyellow;
+  /* background-color: lightyellow; */
   text-align: center;
 }
 
@@ -41,27 +41,26 @@ canvas:hover {
 
 #game {
   position: relative;
-  width: 650px;
-  height: 320px;
+  /* width: 650px; */
+  /* height: 320px; */
   margin: 0 auto;
 }
 
 #tic,
 #rules {
-  position: relative;
+  /* position: relative; */
   margin: 0 auto;
   width: 318px;
   height: 318px;
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 #tic {
   border: 3px solid dodgerblue;
-  float: left;
 }
+
 #rules {
-  float: right;
-  text-align: center;
+  display: none;
 }
 
 p {
@@ -76,20 +75,20 @@ h3 {
 }
 
 button {
-  margin-top: 15px;
+  margin-top: 50px;
   width: 200px;
   height: 50px;
   font-size: 20px;
   font-weight: bold;
   background-color: limegreen;
   color: white;
-  font-family: cursive;
-  border: 1px solid black;
+  font-family: sans-serif;
+  border: 1px solid #149914;
   cursor: pointer;
-  -webkit-box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.7);
-  -moz-box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.7);
-  -ms-box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.7);
-  box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.7);
+  -webkit-box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.3);
+  -moz-box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.3);
+  -ms-box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.3);
+  box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.3);
 }
 
 button:hover {

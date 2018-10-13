@@ -1,0 +1,25 @@
+{
+  "name": "tic-tac-toe-ai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "game-ai.js",
+  "scripts": {
+    "start": "http-server game",
+    "deploy": "push-dir --dir=game --branch=gh-pages --cleanup --allow-unclean",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/8ctopotamus/tic-tac-toe-ai.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/8ctopotamus/tic-tac-toe-ai/issues"
+  },
+  "homepage": "https://github.com/8ctopotamus/tic-tac-toe-ai#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "push-dir": "^0.4.1"
+  }
+}
